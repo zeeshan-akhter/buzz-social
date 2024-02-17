@@ -17,21 +17,21 @@ export const Home = () => {
 
         <div className="home-container-content">
           <p className="left-text margin">
-            <span className="home-container-header">Follow</span>
+            <span className="home-container-header">Stay</span>
             <small className="home-container-small-header">
-              PEOPLE AROUND THE GLOBE
+              in the Buzz, Connect Beyond Limits.
             </small>
           </p>
           <p className="left-text margin">
-            <span className="home-container-header">Connect</span>
+            <span className="home-container-header">Ignite</span>
             <small className="home-container-small-header">
-              WITH YOUR FRIENDS
+              Your Social Pulse with Buzz - Where Trends Unfold
             </small>
           </p>
           <p className="left-text margin">
-            <span className="home-container-header">Share</span>
+            <span className="home-container-header">Elevate</span>
             <small className="home-container-small-header">
-              WHAT YOU THINKING
+              Your Social Experience
             </small>
           </p>
           <button
@@ -40,7 +40,7 @@ export const Home = () => {
               navigate("/explore");
             }}
           >
-            See Cool Stuffs
+            Let's explore
           </button>
           <p
             className="home-container-login-link center-text orange-color"

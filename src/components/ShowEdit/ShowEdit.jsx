@@ -55,6 +55,7 @@ export const ShowEdit = ({ obj, type, setEditProfile }) => {
                           ? userInput?.profileAvatar
                           : URL.createObjectURL(userInput?.profileAvatar)
                       }
+                      alt= "profile-avatar"
                       className="single-user-avatar"
                     />
                     <i className="fa-solid fa-camera"></i>
