@@ -1,0 +1,59 @@
+.single-user-container-layout {
+  width: 100%;
+}
+.single-user-avatar {
+  margin: 1rem auto;
+  object-fit: cover;
+  width: 12rem;
+  height: 12rem;
+  display: block;
+  border-radius: 50%;
+  border: 2px solid #00A9FF;
+}
+.gray-color {
+  color: #9a9a9a;
+  margin-top: 6px;
+  font-weight: 600;
+}
+.single-user-edit-button {
+  text-align: center;
+  border: 1px solid #00A9FF;
+  padding: 0.8rem 0;
+  width: 10rem;
+  margin: 1rem auto;
+  border-radius: 0.6rem;
+  transition: all 0.2s ease-in-out;
+}
+.single-user-edit-button:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+.single-user-profile-bio {
+  margin: 1rem 1rem;
+  line-height: 2rem;
+}
+.single-user-follow-layout {
+  border: 1px solid;
+  display: flex;
+  margin: 1rem 2rem;
+  padding: 1rem;
+  border-radius: 0.6rem;
+  justify-content: space-between;
+}
+.single-user-follow-layout-pill {
+  align-self: center;
+  font-weight: bold;
+  color: #00A9FF;
+  font-size: 1.4rem;
+}
+.single-user-follow-layout-pill-name:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.banner-layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}

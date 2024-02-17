@@ -1,0 +1,91 @@
+.home-container-layout {
+  width: 24rem;
+  margin: 20px auto;
+}
+.margin {
+  margin: 3rem 0;
+}
+.home-container-header {
+  font-size: 2.3rem;
+  letter-spacing: 3px;
+  font-weight: bolder;
+  color: #9a9a9a;
+  text-transform: uppercase;
+}
+.home-container-small-header {
+  font-size: 0.8rem;
+  color: black;
+  font-weight: bold;
+}
+.home-container-btn {
+  width: 24rem;
+  height: 3.5rem;
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+.home-container-login-link {
+  margin-top: 0.8rem;
+  transition: 0.2s ease-in;
+  font-size: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.home-container-login-link:hover {
+  cursor: pointer;
+  translate: 0 -3px;
+  text-decoration: underline;
+}
+.home-image-banner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  width: 24rem;
+}
+
+@media screen and (min-width: 768px) {
+  .home-container-layout {
+    width: 40rem;
+  }
+  .home-container-header {
+    font-size: 2.6rem;
+    letter-spacing: 3.5px;
+  }
+  .home-container-small-header {
+    font-size: 1rem;
+  }
+  .home-image-banner {
+    width: 40rem;
+  }
+  .home-container-btn {
+    width: 40rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .home-container-layout {
+    margin-top: 2rem;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .home-container-content {
+    width: 40%;
+  }
+  .home-container-header {
+    font-size: 2.6rem;
+    letter-spacing: 3.5px;
+  }
+  .home-container-small-header {
+    font-size: 1rem;
+  }
+  .home-image-banner {
+    width: 80%;
+    margin: 0;
+  }
+  .home-container-btn {
+    width: 32rem;
+    height: 3.3rem;
+  }
+}

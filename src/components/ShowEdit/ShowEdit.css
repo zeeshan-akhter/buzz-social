@@ -1,0 +1,51 @@
+.show-edit-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.edit-form-layout {
+  width: fit-content;
+}
+.editform-label {
+  text-transform: capitalize;
+  margin: 0.8rem;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: #00A9FF;
+}
+.editform-label-input {
+  padding: 0.6rem;
+  width: 15rem;
+  border: 1.5px solid;
+  outline: none;
+  border-radius: 0.6rem;
+  font-size: 1.1rem;
+}
+.editform-label-input:focus {
+  border: 1.5px solid #00A9FF;
+}
+textarea {
+  height: auto;
+  margin-bottom: 0.2rem;
+}
+.update-btn {
+  align-self: center;
+  padding: 0.6rem;
+  font-size: 1.2rem;
+  color: #00A9FF;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+.fa-camera {
+  position: absolute;
+  color: #00A9FF;
+  bottom: 10%;
+  right: 30%;
+  cursor: pointer;
+  font-size: 1.5rem;
+}

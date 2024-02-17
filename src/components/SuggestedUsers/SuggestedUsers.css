@@ -1,0 +1,32 @@
+.suggested-users-layout {
+    border: 1px solid rgba(0, 0, 0, 0.24);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 0.6rem;
+    margin: 1rem 1rem 0 1rem;
+    padding: 0.6rem;
+  }
+  
+  .suggested-users {
+    list-style: none;
+    margin-top: 1rem;
+  }
+  
+  .suggested-user {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem 0;
+    align-items: center;
+  }
+  .suggested-user-follow-btn {
+    cursor: pointer;
+    color: #00A9FF;
+    font-weight: 800;
+  }
+  
+  .search-people-layout {
+    margin: 1rem 1rem 0 1rem;
+  }
+  .margin-bottom {
+    margin-bottom: 0.5rem;
+  }
