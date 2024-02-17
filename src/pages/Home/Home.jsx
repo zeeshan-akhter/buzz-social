@@ -19,19 +19,19 @@ export const Home = () => {
           <p className="left-text margin">
             <span className="home-container-header">Stay</span>
             <small className="home-container-small-header">
-              in the Buzz, Connect Beyond Limits.
+              IN THE BUZZ, CONNECT BEYOND LIMITS
             </small>
           </p>
           <p className="left-text margin">
             <span className="home-container-header">Ignite</span>
             <small className="home-container-small-header">
-              Your Social Pulse with Buzz - Where Trends Unfold
+              YOUR SOCIAL PULSE WITH BUZZ
             </small>
           </p>
           <p className="left-text margin">
             <span className="home-container-header">Elevate</span>
             <small className="home-container-small-header">
-              Your Social Experience
+              YOUR SOCIAL EXPERIENCE
             </small>
           </p>
           <button
